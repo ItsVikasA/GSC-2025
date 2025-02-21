@@ -1,17 +1,23 @@
 # GSC-2025
 Google Solution Challenge 2025
 
+# GSC-2025
+Google Solution Challenge 2025
+
+# GSC-2025
+Google Solution Challenge 2025
+
 # AI-Based Electricity Demand Projection for Delhi Power System
 
 ## Project Overview
-This project is part of **Smart India Hackathon 2024**, focusing on developing an **AI-based model for electricity demand projection**, including peak demand forecasting for the Delhi Power System.
+This project is part of **Google Solution Challenge 2025**, focusing on developing an **AI-based model for electricity demand projection**, including peak demand forecasting for the Delhi Power System.
 
 ## Execution Steps
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/ItsVikasA/GSC-2025.git
+cd GSC-2025
 ```
 
 ### 2. Install Dependencies
@@ -21,37 +27,22 @@ pip install -r requirements.txt
 ```
 
 ### 3. Prepare the Dataset
-- Download the historical electricity demand dataset from **[Delhi SLDC](https://www.delhisldc.org/)**.
-- Place the dataset in the `data/` directory.
-- Run preprocessing:
-  ```sh
-  python preprocess.py
-  ```
+- The project includes two CSV files containing historical electricity demand data.
+- Place these files in the `data/` directory.
 
 ### 4. Train the Model
-Execute the training script:
+Open **VS Code**, redirect to **Jupyter Notebook**, and execute the training script:
 ```sh
-python train.py
+jupyter notebook
 ```
+- Open `train.ipynb` and run all cells.
 
 ### 5. Evaluate the Model
-Run the evaluation script to test the model:
+Run the evaluation script in Jupyter Notebook:
 ```sh
-python evaluate.py
+jupyter notebook
 ```
-
-### 6. Deploy the Model
-- Use **AWS, Azure, or Google Cloud** for deployment.
-- Run:
-  ```sh
-  python deploy.py
-  ```
-
-### 7. Run the Web Dashboard
-Start the dashboard for visualization:
-```sh
-streamlit run dashboard.py
-```
+- Open `evaluate.ipynb` and run all cells.
 
 ## Technologies Used
 - **Python**
@@ -59,7 +50,11 @@ streamlit run dashboard.py
 - **LSTM Networks**
 - **Flask/FastAPI**
 - **Streamlit** (for visualization)
-- **AWS/Azure** (for deployment)
+
+## Dataset Information
+The dataset consists of:
+- **CSV File 1**: Contains historical electricity demand data spanning multiple years with timestamps.
+- **CSV File 2**: Includes electricity demand data for a specified month, along with additional features such as weather conditions, holidays, and other external factors affecting electricity demand.
 
 ## Contributing
 Feel free to contribute by submitting issues or pull requests.
@@ -68,6 +63,3 @@ Feel free to contribute by submitting issues or pull requests.
 This project is licensed under the **MIT License**.
 
 ---
-
-Replace `your-username/your-repository` with your actual GitHub repo URL.
-
