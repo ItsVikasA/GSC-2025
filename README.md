@@ -1,12 +1,6 @@
 # GSC-2025
 Google Solution Challenge 2025
 
-# GSC-2025
-Google Solution Challenge 2025
-
-# GSC-2025
-Google Solution Challenge 2025
-
 # AI-Based Electricity Demand Projection for Delhi Power System
 
 ## Project Overview
